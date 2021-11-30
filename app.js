@@ -35,6 +35,9 @@ app.get('/habilidades', (req, res) => {
     res.send("Habilidades")
 })
 
+app.get('/new', (req, res) => {
+    res.sendFile("Nueva Página")
+})
 app.listen(process.env.PORT || 3000)
 
 
