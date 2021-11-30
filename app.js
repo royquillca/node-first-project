@@ -36,8 +36,9 @@ app.get('/habilidades', (req, res) => {
 })
 
 app.get('/new', (req, res) => {
-    res.sendFile("Nueva Página")
+    res.sendFile("Nueva Pagina")
 })
+
 app.listen(process.env.PORT || 3000)
 
 
