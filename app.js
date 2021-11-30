@@ -38,7 +38,9 @@ app.get('/habilidades', (req, res) => {
 app.get('/new', (req, res) => {
     res.send("Nueva Pagina")
 })
-
+app.get('/myname', (req, res) => {
+    res.send("<h1>Roy Andy Quillca Pacco</h1>")
+})
 app.listen(process.env.PORT || 3000)
 
 
